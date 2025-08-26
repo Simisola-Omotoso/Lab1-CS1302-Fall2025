@@ -16,8 +16,11 @@ public class BillTextFormatter {
 	 * @precondition none
 	 * @postcondition none
 	 * 
+	 * @param bill new Bill object
+	 * 
 	 * @return a String containing the list of bill items and total for the bill
 	 */
+	
 	public String getText(Bill bill) {
 		String text = "ITEMS" + System.lineSeparator();
 		double subTotal = 0.0;
