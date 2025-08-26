@@ -7,7 +7,6 @@ import edu.westga.cs1302.lab1.model.BillItem;
 
 public class BillTextFormatter {
 	
-
 	/** Return a String containing the list of bill items and total for the bill.
 	 * 
 	 * @precondition none
@@ -18,7 +17,7 @@ public class BillTextFormatter {
 	public String getText(Bill bill) {
 		String text = "ITEMS" + System.lineSeparator();
 		double subTotal = 0.0;
-		for (BillItem item : bill.items) {
+		for (BillItem item : bill.getItems()) {
 			text += item.getName() + " - " + item.getAmount() + System.lineSeparator();
 			subTotal += item.getAmount();
 		}
@@ -32,16 +31,6 @@ public class BillTextFormatter {
 		text += "TOTAL - $" + (subTotal + tip + tax);
 		
 		return text;
-	}
-	
-	public static void main(String[] args) {
-		BillTextFormatter formatter = new BillTextFormatter();
-		BillItem item1 = new BillItem("Lotion", 16.99);
-		BillItem item2 = new BillItem("Sanitizer", 10.00);
-		Bill bill = new Bill();
-		bill.addItem(item1);
-		bill.addItem(item2);
-		formatter.getText();
 	}
 
 }
