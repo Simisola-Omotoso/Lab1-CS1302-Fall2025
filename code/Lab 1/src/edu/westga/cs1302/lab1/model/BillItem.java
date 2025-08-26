@@ -29,25 +29,19 @@ public class BillItem {
 		this.name = name;
 		this.amount = amount;
 	}
-	
 
 	/** Return the name for the bill item
-	 * 
 	 * @precondition none
 	 * @postcondition none
-	 * 
 	 * @return the name for the bill item
 	 */
 	public String getName() {
 		return this.name;
 	}
-	
 
 	/** Return the amount for the bill item
-	 * 
 	 * @precondition none
 	 * @postcondition none
-	 * 
 	 * @return the amount for the bill item
 	 */
 	public double getAmount() {
