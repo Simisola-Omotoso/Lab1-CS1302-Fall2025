@@ -9,6 +9,9 @@ import java.util.ArrayList;
  */
 public class Bill {
 	private ArrayList<BillItem> items;
+	public static final double TIP = 0.2;
+	public static final double TAX = 0.1;
+	public static final double SUB_TOTAL = 0.0;
 	
 	/** Create a new empty Bill
 	 * 
