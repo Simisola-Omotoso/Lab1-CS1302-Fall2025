@@ -1,4 +1,4 @@
-package edu.westga.cs1302.lab1.model;
+package edu.westga.cs1302.lab2.model;
 
 import java.util.ArrayList;
 
@@ -8,6 +8,9 @@ import java.util.ArrayList;
  * @version Fall 2025
  */
 public class Bill {
+	public static final double TIP_RATE = 0.2;
+	public static final double TAX_RATE = 0.1;
+	
 	private ArrayList<BillItem> items;
 	
 	/** Create a new empty Bill
@@ -33,11 +36,13 @@ public class Bill {
 		}
 		this.items.add(item);
 	}
-	
-	/** Returns list of items
+
+	/** Returns the list of items in the bill
+	 * 
 	 * @precondition none
-	 * @postcondition none
-	 * @return list of items
+	 * @postconition none
+	 * 
+	 * @return the list of items in the bill
 	 */
 	public ArrayList<BillItem> getItems() {
 		return this.items;

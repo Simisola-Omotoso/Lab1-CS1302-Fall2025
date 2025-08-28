@@ -1,0 +1,129 @@
+commit 7be2202017c24132c4e097bc02a5af4e676b1560 (HEAD -> dev, origin/main, origin/dev, origin/HEAD)
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Tue Aug 26 13:24:30 2025 -0400
+
+    Added Constants For Formatter
+
+    1) Added three new constants inside formatter
+    2) Remove magic numbers
+    3) Refactored magic numbers into constants and put them at the top of the class
+
+commit 0965b2669347e7d5c383a3bc1d9defe1ca14401c
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Tue Aug 26 12:55:43 2025 -0400
+
+    Added @Param Line for getText Method
+
+    1) Added @param line
+    2) Checkstyle
+    3) Wrote @param line under pre & postconditions and said bill is new Bill object
+
+commit edb02d639ad208bf40d97373af6de454b085470f
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Tue Aug 26 12:53:43 2025 -0400
+
+    Added Javadoc for Formatter
+
+    1) Added Javadoc for formatter
+    2) For Checkstyle
+    3) Wrote Javadoc above public class
+
+commit 64b4b549a1ff525024fe92fc63390d635244c80d
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Tue Aug 26 12:50:00 2025 -0400
+
+    Added getItems() into getText Method
+
+    1) Changed this.items to bill.getItems()
+    2) To let getText access getter method
+    3) Replaced this.items with bill.getItems() in line 20 of the formatter
+
+commit d194c78b8b95ee7bb18e1d799b71a962e59b7ccc
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Tue Aug 26 12:47:36 2025 -0400
+
+    Added Items Getter in Bill Class
+
+    1) Added items getter in bill class
+    2) To let formatter access ArrayList of items
+    3) Coded a new getter method into Bill class
+
+commit 7d6e000a5921c8bc87d3e2dd022709352342adcc
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Sat Aug 23 13:16:14 2025 -0400
+
+    Moved getText() to Formatter
+
+    1) Moved method to formatter
+    2) To generate & see text in UI
+    3) Cut & pasted into formatter
+
+commit 71855f69129e726e20ca21d32ae4d19451a33aac
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Sat Aug 23 13:13:45 2025 -0400
+
+    Added Bill Import Line to Formatter
+
+    1) Added import line
+    2) Pulls data from Bill class into the formatter
+    3) Typed 'import' and where the Bill class was
+
+commit 593961708ccfa51743da6a4233fe0f6653936109
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Sat Aug 23 13:04:09 2025 -0400
+
+    Added View Package and BillTextFormatter Class
+
+    1) Added new package & class
+    2) Package & class needed to see generated text
+    3) Added new package & class through Eclipse
+
+commit c427121da0f02590b2d93e61477edf191915b067
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Aug 21 12:27:17 2025 -0400
+
+    Added Git Log Txt
+
+    1) Added git-log.txt to project files
+    2) To track commit history
+    3) Created new file in Eclipse folder
+
+commit b0701291f8b9ff645c569cba96ee969f36b16965
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Aug 21 12:25:05 2025 -0400
+
+    Added Lab 1 Files
+
+    1) Added lab 1 files
+    2) Opened zip file and added files to code folder
+
+commit ea5e804af8d8978a5c8afc4568e00f218a1c9757
+Author: Simisola Omotoso <somotoso234@gmail.com>
+Date:   Thu Aug 21 12:19:14 2025 -0400
+
+    Initial commit
+(END)
+commit c427121da0f02590b2d93e61477edf191915b067
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Aug 21 12:27:17 2025 -0400
+
+    Added Git Log Txt
+
+    1) Added git-log.txt to project files
+    2) To track commit history
+    3) Created new file in Eclipse folder
+
+commit b0701291f8b9ff645c569cba96ee969f36b16965
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Aug 21 12:25:05 2025 -0400
+
+    Added Lab 1 Files
+
+    1) Added lab 1 files
+    2) Opened zip file and added files to code folder
+
+commit ea5e804af8d8978a5c8afc4568e00f218a1c9757
+Author: Simisola Omotoso <somotoso234@gmail.com>
+Date:   Thu Aug 21 12:19:14 2025 -0400
+
+    Initial commit
