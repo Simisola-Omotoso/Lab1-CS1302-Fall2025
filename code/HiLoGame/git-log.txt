@@ -1,0 +1,24 @@
+commit c0ee6678ff0d85a9b2ca4d0aa33a3966c4d35d68 (HEAD -> dev)
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Aug 21 10:27:54 2025 -0400
+
+    Adding Base Project
+
+commit 037d58a1173b7681b285c21550c00e7f3b885c85
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Aug 21 10:24:45 2025 -0400
+
+    Deleted Empty.txt
+    Told Git to remove file
+
+commit e1a8e23e7861b19dc17652d794cd3740475c62ba (origin/dev, origin/HEAD)
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Aug 21 09:57:39 2025 -0400
+
+    Adding Base Project Structure
+
+commit a33081606901348565913f98095a44e1b77f97d5
+Author: Simisola Omotoso <somotoso234@gmail.com>
+Date:   Tue Aug 19 10:03:55 2025 -0400
+
+    Initial commit
