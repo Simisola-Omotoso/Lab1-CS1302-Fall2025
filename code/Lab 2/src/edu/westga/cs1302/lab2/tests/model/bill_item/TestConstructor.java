@@ -18,5 +18,12 @@ public class TestConstructor {
 			new BillItem(null, 3.8);
 		});
 	}
+	
+	@Test
+	public void testNegativesNullIllegalArgumentExceptionBillItemConstructor() {
+		assertThrows(IllegalArgumentException.class, () -> {
+			new BillItem("Notebook", -3.8);
+		});
+	}
 
 }
