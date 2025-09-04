@@ -2,15 +2,24 @@ package edu.westga.cs1302.lab2.tests.model.bill_item;
 
 import org.junit.jupiter.api.Test;
 
-import edu.westga.cs1302.lab2.model.Bill;
-
 import edu.westga.cs1302.lab2.model.BillItem;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import org.junit.jupiter.api.Assertions.*;
+/** Tests constructor in BillItem.
+ * 
+ * @author Simisola Omotoso
+ * @version Fall 2025
+ */
 
 public class TestConstructor {
+	
+	/** Test name equals illegal argument
+	 * 
+	 * @precondition none
+	 * @postcondition none
+	 * 
+	 */
 	
 	@Test
 	public void testNameEqualsNullIllegalArgumentExceptionBillItemConstructor() {
@@ -18,6 +27,13 @@ public class TestConstructor {
 			new BillItem(null, 3.8);
 		});
 	}
+	
+	/** Test negative number illegal argument
+	 * 
+	 * @precondition none
+	 * @postcondition none
+	 * 
+	 */
 	
 	@Test
 	public void testNegativesNullIllegalArgumentExceptionBillItemConstructor() {

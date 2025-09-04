@@ -1,0 +1,253 @@
+commit 0c8fe30239025d6e72687d68bcb5ae61fef97a34 (HEAD -> dev, origin/dev, origin/HEAD)
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Sep 4 07:04:08 2025 -0400
+
+    Added testOneItemGetText and Modified Former Test Case
+
+    1) Added new test case for testing a bill formatter that has only one item and renamed the other one as empty
+    2) To test one item on the bill and make the test cases clearer
+    3) Duplicated previous test case, renamed it to an empty test case, and modified the previous one by adding a new BillItem, used the addItem method, and renamed the previous one testOneItemGetText
+
+commit 43b6432a226f44cde95001f94c1088079256cefb
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Sep 4 06:50:00 2025 -0400
+
+    Added testNegativesNullIllegalArgumentExceptionBillItemConstructor
+
+    1) Added new test case for negative number illegal argument
+    2) To test if this illegal argument is working
+    3) Added new test case and added assertThrows with a BillItem that has a negative number
+
+commit 1e8b39d290e2fd47de039e44dc962fe18ae6fb76
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Sep 4 06:46:15 2025 -0400
+
+    Added testThreeAddItem
+
+    1) Added new test case if three items are added
+    2) To test if three items on bill is working
+    3) Created new test case with new bill, new billitem, added item to billthre
+e times, and threw in assertEquals to test if there's three items on that bill
+
+commit 7a52b819cf3108581c6d19ba819fd5a1c3a72584
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Sep 4 06:43:45 2025 -0400
+
+    Added testTwoAddItem
+
+    1) Added new test case if two items are added
+    2) To test if two items on bill is working
+    3) Created new test case with new bill, new billitem, added item to billtwo
+times, and threw in assertEquals to test if there's two items on that bill
+
+commit 49cffe44f8c1b0560fec1bbb77ae2d85d85cd2f1
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Sep 4 06:40:56 2025 -0400
+
+    Added testOneAddItem
+
+    1) Added new test case if one item is added
+    2) To test if minimum amount is working
+    3) Created new test case with new bill, new billitem, added item to bill, an
+d threw in assertEquals to test if there's one item on that bill
+
+commit b17076af0d00ce970afc649dc1f850c8ce647d1b
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Sep 4 06:21:13 2025 -0400
+
+    Added testNormalGetText
+
+    1) Added new test case for getText method
+    2) To test sunny day method
+    3) Created new test with new bill, new billview, and added assertEquals
+
+commit eb1ed043c98ed18556c990e739628bf68a095658
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Sep 4 05:57:09 2025 -0400
+
+    Added testNameEqualsNullIllegalArgumentExceptionBillItemConstructor
+
+    1) Added new illegal argument test for name equals null for BillItem constru
+ctor
+    2) To test name equals null illegal argument
+    3) Created new test and added assertThrows for a new BillItem that has null
+as the name
+
+commit 4604339c4e9e55148c0a75c75193f336c42bd720
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Sep 4 05:48:41 2025 -0400
+
+    Added testIllegalArgumentExceptionAddItem
+
+    1) Added a test for illegal argument in addItem
+    2) To test if illegal argument works
+    3) Wrote new test, created new bill, and wrote assertThrows for a null BillI
+tem
+
+commit b1348bcaab9f2a6837e1fb22da28c44a56d110e7
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Sun Aug 31 15:06:49 2025 -0400
+
+    Added HiLo Folder
+
+    1) Added HiLo folder
+    2) Practice project
+    3) Moved folder from old source to new repo
+
+commit 59e89e3d647e72cac79a204f9233a4a9ed70be10
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Aug 28 12:31:47 2025 -0400
+
+    Added TestConstructor in New Package
+
+    1) Added new constructor in new package
+    2) Gets constructor for tests
+    3) Created new class & package through Eclipse
+
+commit acbda433eca3d6bcb2cdcdfc0d97d4d3b3c83807
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Aug 28 12:28:46 2025 -0400
+
+    Added Git Log Txt
+
+    1) Added git-log.txt
+    2) For commit history
+    3) Created new file in Eclipse and saved as git-log.txt
+
+commit bc7e5f5d149f7d3c2e1015c587ca0790fe3116d4
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Aug 28 12:25:30 2025 -0400
+
+    Added TestAddItem.java and New Packages
+
+    1) Added a new test class and one more package
+    2) Unit testing lab
+    3) Created new test class within model.bill package
+
+commit 99ba0549f894f105f24f0ba45ae1d83fb640328c
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Aug 28 12:19:26 2025 -0400
+
+    Added New Packages and a Class
+
+    1) Added a test package and TestGetText.java
+    2) Unit testing
+    3) Added new packages through Eclipse and created a new test class in the vi
+ew.bill_view package
+
+commit 3020a85727fbec8abcc9e4b356650d2b8f1beee9
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Aug 28 12:03:25 2025 -0400
+
+    Added Lab 2 Files
+
+    1) Added lab 2 folder to code folder
+    2) Start new lab
+    3) Dropped folder into code folder
+
+commit 7be2202017c24132c4e097bc02a5af4e676b1560
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Tue Aug 26 13:24:30 2025 -0400
+
+    Added Constants For Formatter
+
+    1) Added three new constants inside formatter
+    2) Remove magic numbers
+    3) Refactored magic numbers into constants and put them at the top of the cl
+ass
+
+commit 0965b2669347e7d5c383a3bc1d9defe1ca14401c
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Tue Aug 26 12:55:43 2025 -0400
+
+    Added @Param Line for getText Method
+
+    1) Added @param line
+    2) Checkstyle
+    3) Wrote @param line under pre & postconditions and said bill is new Bill ob
+ject
+
+commit edb02d639ad208bf40d97373af6de454b085470f
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Tue Aug 26 12:53:43 2025 -0400
+
+    Added Javadoc for Formatter
+
+    1) Added Javadoc for formatter
+    2) For Checkstyle
+    3) Wrote Javadoc above public class
+
+commit 64b4b549a1ff525024fe92fc63390d635244c80d
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Tue Aug 26 12:50:00 2025 -0400
+
+    Added getItems() into getText Method
+
+    1) Changed this.items to bill.getItems()
+    2) To let getText access getter method
+    3) Replaced this.items with bill.getItems() in line 20 of the formatter
+
+commit d194c78b8b95ee7bb18e1d799b71a962e59b7ccc
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Tue Aug 26 12:47:36 2025 -0400
+
+    Added Items Getter in Bill Class
+
+    1) Added items getter in bill class
+    2) To let formatter access ArrayList of items
+    3) Coded a new getter method into Bill class
+
+commit 7d6e000a5921c8bc87d3e2dd022709352342adcc
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Sat Aug 23 13:16:14 2025 -0400
+
+    Moved getText() to Formatter
+
+    1) Moved method to formatter
+    2) To generate & see text in UI
+    3) Cut & pasted into formatter
+
+commit 71855f69129e726e20ca21d32ae4d19451a33aac
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Sat Aug 23 13:13:45 2025 -0400
+
+    Added Bill Import Line to Formatter
+
+    1) Added import line
+    2) Pulls data from Bill class into the formatter
+    3) Typed 'import' and where the Bill class was
+
+commit 593961708ccfa51743da6a4233fe0f6653936109
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Sat Aug 23 13:04:09 2025 -0400
+
+    Added View Package and BillTextFormatter Class
+
+    1) Added new package & class
+    2) Package & class needed to see generated text
+    3) Added new package & class through Eclipse
+
+commit c427121da0f02590b2d93e61477edf191915b067
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Aug 21 12:27:17 2025 -0400
+
+    Added Git Log Txt
+
+    1) Added git-log.txt to project files
+    2) To track commit history
+    3) Created new file in Eclipse folder
+
+commit b0701291f8b9ff645c569cba96ee969f36b16965
+Author: Simi0M0 <somotoso@Outlook.com>
+Date:   Thu Aug 21 12:25:05 2025 -0400
+
+    Added Lab 1 Files
+
+    1) Added lab 1 files
+    2) Opened zip file and added files to code folder
+
+commit ea5e804af8d8978a5c8afc4568e00f218a1c9757
+Author: Simisola Omotoso <somotoso234@gmail.com>
+Date:   Thu Aug 21 12:19:14 2025 -0400
+
+    Initial commit

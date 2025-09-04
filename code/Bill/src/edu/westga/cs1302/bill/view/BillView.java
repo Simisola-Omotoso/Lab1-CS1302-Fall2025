@@ -1,7 +1,7 @@
-package edu.westga.cs1302.lab2.view;
+package edu.westga.cs1302.bill.view;
 
-import edu.westga.cs1302.lab2.model.Bill;
-import edu.westga.cs1302.lab2.model.BillItem;
+import edu.westga.cs1302.bill.model.Bill;
+import edu.westga.cs1302.bill.model.BillItem;
 
 /** Supports displaying the information contained in a Bill.
  * 
@@ -15,7 +15,7 @@ public class BillView {
 	 * @precondition none
 	 * @postcondition none
 	 * 
-	 * @param bill new Bill object
+	 * @param bill the bill to be viewed
 	 * 
 	 * @return a String containing the list of bill items and total for the bill
 	 */
@@ -31,10 +31,14 @@ public class BillView {
 		text += "SUBTOTAL - $" + subTotal + System.lineSeparator();
 		double tax = subTotal * Bill.TAX_RATE;
 		double tip = subTotal * Bill.TIP_RATE;
-		text += "TAX - $" + tax + System.lineSeparator();
-		text += "TIP - $" + tip + System.lineSeparator();
-		text += "TOTAL - $" + (subTotal + tip + tax);
+		text += "TAX - $" + this.roundToNearestHundredth(tax) + System.lineSeparator();
+		text += "TIP - $" + this.roundToNearestHundredth(tip) + System.lineSeparator();
+		text += "TOTAL - $" + this.roundToNearestHundredth(subTotal + tip + tax);
 		
 		return text;
+	}
+	
+	private double roundToNearestHundredth(double value) {
+		return (int) (value * 100) / 100.0;
 	}
 }

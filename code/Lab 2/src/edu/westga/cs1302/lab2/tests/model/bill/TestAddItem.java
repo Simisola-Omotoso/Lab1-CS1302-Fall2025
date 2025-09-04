@@ -9,9 +9,20 @@ import edu.westga.cs1302.lab2.model.BillItem;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import org.junit.jupiter.api.Assertions.*;
+/** Test addItem in Bill class.
+ * 
+ * @author Simisola Omotoso
+ * @version Fall 2025
+ */
 
 public class TestAddItem {
+	
+	/** Tests illegal argument exception
+	 * 
+	 * @precondition none
+	 * @postcondition none
+	 * 
+	 */
 	
 	@Test
 	public void testIllegalArgumentExceptionAddItem() {
@@ -21,6 +32,13 @@ public class TestAddItem {
 		});
 	}
 	
+	/** Tests adding one item
+	 * 
+	 * @precondition none
+	 * @postcondition none
+	 * 
+	 */
+	
 	@Test
 	public void testOneAddItem() {
 		Bill bill = new Bill();
@@ -28,6 +46,13 @@ public class TestAddItem {
 		bill.addItem(item);
 		assertEquals(1, bill.getItems().size());
 	}
+	
+	/** Tests adding two items
+	 * 
+	 * @precondition none
+	 * @postcondition none
+	 * 
+	 */
 	
 	@Test
 	public void testTwoAddItem() {
@@ -38,6 +63,13 @@ public class TestAddItem {
 		bill.addItem(item2);
 		assertEquals(2, bill.getItems().size());
 	}
+	
+	/** Tests adding three items
+	 * 
+	 * @precondition none
+	 * @postcondition none
+	 * 
+	 */
 	
 	@Test
 	public void testThreeAddItem() {
