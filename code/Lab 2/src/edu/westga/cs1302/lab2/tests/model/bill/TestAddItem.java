@@ -38,5 +38,17 @@ public class TestAddItem {
 		bill.addItem(item2);
 		assertEquals(2, bill.getItems().size());
 	}
+	
+	@Test
+	public void testThreeAddItem() {
+		Bill bill = new Bill();
+		BillItem item = new BillItem("Boots", 16.99);
+		BillItem item2 = new BillItem("Lipstick", 4.99);
+		BillItem item3 = new BillItem("Notebook", 1.99);
+		bill.addItem(item);
+		bill.addItem(item2);
+		bill.addItem(item3);
+		assertEquals(3, bill.getItems().size());
+	}
 
 }
